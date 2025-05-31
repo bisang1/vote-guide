@@ -6,25 +6,31 @@
     <title>제21대 대통령선거 안내</title>
     <script src="https://cdn.tailwindcss.com"></script>
   </head>
-  <body class="bg-gray-100 text-gray-900 min-h-screen flex flex-col">
+  <body class="bg-gray-100 text-gray-900">
     <header class="bg-blue-600 text-white text-center py-4 text-xl font-semibold">
       소중한 한표가 대한민국을 바꿉니다
     </header>
 
-    <main class="flex-1 max-w-2xl mx-auto bg-white p-6 mt-6 mb-6 rounded-xl shadow">
+    <main class="w-full max-w-3xl mx-auto bg-white p-6 mt-6 rounded-xl shadow">
       <section class="text-center mb-6">
         <h1 class="text-2xl font-bold">제21대 대통령선거</h1>
         <p class="text-gray-600 mt-1">📅 2025년 6월 3일 (화)</p>
-        <p class="bg-blue-50 text-blue-700 inline-block mt-2 px-4 py-1 rounded-full text-sm font-medium">투표 시간: 오전 6시 ~ 오후 6시</p>
+        <p class="bg-blue-50 text-blue-700 inline-block mt-2 px-4 py-1 rounded-full text-sm font-medium">
+          투표 시간: 오전 6시 ~ 오후 6시
+        </p>
       </section>
 
-      <section class="mb-8">
+      <section class="mb-8" id="poll">
         <h2 class="font-bold text-lg mb-2">🗺️ 투표소 찾기</h2>
-        <a href="https://example.com/위치기반-투표소찾기" class="block bg-blue-100 hover:bg-blue-200 text-center p-4 rounded-lg mb-2 transition-all duration-150">
+        <a href="https://example.com" class="block bg-blue-100 hover:bg-blue-200 text-center p-4 rounded-lg mb-2">
           📍 현재 위치로 투표소 찾기
         </a>
-        <a href="#" class="block text-center w-full bg-blue-600 text-white py-2 rounded-md">선거인명부 열람하기</a>
-        <p class="text-xs text-center mt-1 text-gray-500">선거인명부에서 본인의 투표소를 확인하실 수 있습니다</p>
+        <a href="#" class="block text-center w-full bg-blue-600 text-white py-2 rounded-md">
+          선거인명부 열람하기
+        </a>
+        <p class="text-xs text-center mt-1 text-gray-500">
+          선거인명부에서 본인의 투표소를 확인하실 수 있습니다
+        </p>
       </section>
 
       <section class="mb-8">
@@ -48,20 +54,22 @@
         <div class="bg-blue-50 p-4 rounded-lg text-sm space-y-2">
           <p>✅ 모바일신분증으로 투표 가능 (실물 없이 가능)</p>
           <div class="flex gap-4 justify-between text-center">
-            <div>📲<br/>앱 설치</div>
-            <div>🆔<br/>신분증 발급</div>
-            <div>🔍<br/>QR 인증</div>
+            <div>📲<br />앱 설치</div>
+            <div>🆔<br />신분증 발급</div>
+            <div>🔍<br />QR 인증</div>
           </div>
           <ul class="list-disc list-inside text-xs text-gray-600 mt-2">
             <li>모바일신분증 앱 사전 설치 및 발급 필요</li>
             <li>스마트폰 배터리 충분히 충전</li>
             <li>인터넷 연결 상태 확인</li>
           </ul>
-          <a href="#" class="block text-center w-full bg-blue-600 text-white py-2 rounded-md mt-3">📥 모바일신분증 앱 다운로드</a>
+          <a href="#" class="block text-center w-full bg-blue-600 text-white py-2 rounded-md mt-3">
+            📥 모바일신분증 앱 다운로드
+          </a>
         </div>
       </section>
 
-      <section class="mb-8">
+      <section class="mb-8" id="schedule">
         <h2 class="font-bold text-lg mb-2">🗳️ 투표 절차</h2>
         <ol class="list-decimal list-inside text-sm space-y-1 pl-4">
           <li>신분증 제시</li>
@@ -112,7 +120,7 @@
         </div>
       </section>
 
-      <section class="pb-6">
+      <section class="mb-10">
         <h2 class="font-bold text-lg mb-2">📞 문의 안내</h2>
         <ul class="text-sm space-y-1">
           <li>• 선거 관련 문의: 1390</li>
@@ -127,7 +135,7 @@
       </section>
     </main>
 
-    <footer class="w-full bg-white border-t shadow-md flex justify-around text-sm py-3">
+    <footer class="w-full bg-white border-t shadow-md flex justify-around text-sm py-3 mt-6">
       <a href="#home" class="flex flex-col items-center text-gray-700 hover:text-blue-600">
         <span class="text-lg">🏠</span>
         <span class="text-xs">홈</span>
